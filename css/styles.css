@@ -75,17 +75,16 @@
 /* ------------------------------------------------------------------- 
  * ## fonts 
  * ------------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-:root {
-
-    --font-1 : "Public Sans", sans-serif;
-    --font-2 : "DM Serif Display", serif;
-
-    /* monospace
-    */
-    --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
-}
+ :root {
+     --font-1: 'Bebas Neue', sans-serif; /* Use Bebas Neue for the primary font */
+     --font-2: 'Bebas Neue', serif;      /* Optionally, use Bebas Neue for the secondary serif font */
+     
+     /* monospace */
+     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace; /* No change to monospace */
+ }
+ 
 
 /* ------------------------------------------------------------------- 
  * ## colors
