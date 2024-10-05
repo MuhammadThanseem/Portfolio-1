@@ -75,15 +75,16 @@
 /* ------------------------------------------------------------------- 
  * ## fonts 
  * ------------------------------------------------------------------- */
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap');
 
  :root {
-     --font-1: 'Bebas Neue', sans-serif; /* Use Bebas Neue for the primary font */
-     --font-2: 'Bebas Neue', serif;      /* Optionally, use Bebas Neue for the secondary serif font */
+     --font-1: 'Helvetica Neue', Arial, sans-serif; /* Use Helvetica Neue for the primary font */
+     --font-2: 'Helvetica Neue', serif;             /* Optionally, use Helvetica Neue for the secondary serif font */
      
      /* monospace */
      --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace; /* No change to monospace */
  }
+ 
  
 
 /* ------------------------------------------------------------------- 
